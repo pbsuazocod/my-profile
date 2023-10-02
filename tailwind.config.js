@@ -6,6 +6,12 @@ module.exports = {
       fontFamily: {
         jost: ['"jost"', "sans-serif"],
       },
+      minWidth: {
+        "1/2": "50%",
+      },
+      fontSize: {
+        "4vw": "4vw",
+      },
     },
   },
   plugins: [],

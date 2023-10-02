@@ -23,23 +23,21 @@ export default function Main() {
         <div className="mx-auto px-6 py-32 sm:py-40 lg:px-56 ">
           <div className="mx-auto max-w-2xl lg:mx-0 bg-red-30 lg:max-w-none  lg:gap-x-16 lg:gap-y-6 xl:gap-x-8 flex">
             {/* <div className="max-w-xl lg:mt-0 xl:col-end-1 xl:row-start-1 bg-gray-300"> */}
-            <div className=" bg-gray-300">
-              <h1 className="text-4xl font-bold font-jost text-gray-900 sm:text-6xl">
+            <div className=" bg-gray-300 lg:min-w-[50%]">
+              <h1 className="leading-10 font-normal lg:text-3xl sm:text-xl font-jost text-gray-900 ">
                 Hi ! I am
               </h1>
-              <p className=" text-9xl text-black font">PEDRO</p>
-              <p className=" text-9xl text-black font">SUAZO</p>
-              <p className=" text-2xl font-semibold text-black font">
-                FULLSTACK DEVELOPER
+              <p className=" text-4vw tracking-[8.5px] leading-[110.5%] font-jost font-semibold mt-[10px]">
+                PEDRO SUAZO
               </p>
-              <p className="text-2xl font-semibold text-black font">&</p>
-              <p className="text-2xl font-semibold text-black font">
-                CIVIL ENGINEER
+              <p className="text-x font-semibold font-jost tracking-[2.5px] mt-[15px]">
+                FULLSTACK DEVELOPER & CIVIL ENGINEER
               </p>
-              <p>
-                My mission is to help you build your projects with my
-                versatility and my ability to adapt to different situations.
-                Together, let's turn your ideas into great projects!
+              <p className="mt-[20px] text-xl font-jost tracking-[0.3px] text-[#929292]">
+                Hey there! I'm not your average Fullstack Developer—I'm also a
+                Civil Engineer. Whether you need a stunning website or robust
+                infrastructure, I've got you covered. Let's bring your vision to
+                life together.
               </p>
 
               {/* Buttons  */}
